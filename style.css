@@ -1,0 +1,94 @@
+body {
+  background-image: url("https://miro.medium.com/max/3150/2*6Alh1C-htd98tFMQNGz6cg.jpeg");
+  background-repeat: no-repeat;
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 3rem;
+  font-family: "Poppins", sans-serif;
+  color: darkblue;
+  margin-bottom: 15px;
+}
+
+h2 {
+  font-size: 1.8rem;
+  font-weight: bold;
+  font-family: "Poppins", sans-serif;
+  color: darkblue;
+  margin-bottom: 10px;
+}
+
+h3 {
+  font-size: 1.2rem;
+  font-weight: bold;
+  font-family: "Poppins", sans-serif;
+  margin-bottom: 5px;
+}
+
+p {
+  font-size: 0.9rem;
+  font-family: "Poppins", sans-serif;
+  margin-bottom: 10px;
+}
+
+ul {
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: 0.9rem;
+  font-family: "Poppins", sans-serif;
+}
+
+.green_section {
+  color: green;
+}
+
+.red_section {
+  color: brown;
+}
+
+.very_bold {
+  font-weight: 700;
+}
+
+section {
+  background-color: rgba(255, 255, 255, 0.81);
+  border: 5px solid darkblue;
+  margin: 20px 20px;
+  padding: 20px 30px;
+  border-radius: 1px;
+  width: 40vw;
+}
+
+section#profile-pic {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 20vw;
+}
+
+section#icons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+#my-profile-pic {
+  width: 10vw;
+  justify-content: center;
+  border-radius: 2%;
+}
+
+#main-section {
+  display: flex;
+}
+
+#canvas {
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+}
